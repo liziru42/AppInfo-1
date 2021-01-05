@@ -53,7 +53,7 @@
         <!--异常映射-->
         <property name="exceptionMappings">
             <props>
-                <prop key="javax.naming.NoPermissionException">redirect:403.jsp</prop>
+                <prop key="javax.naming.NoPermissionException">redirect:../403.jsp</prop>
             </props>
         </property>
     </bean>
